@@ -1,0 +1,2 @@
+# Component Minimization
+ComponentMinimization.java reads in a square adjacency matrix (representing connections on a graph) and assigns each component (ie vertex) to either bin 0 or bin 1. It then sums up the weight of the inter-connections between the two bins then greedily attempts to minimize the the cost (ie sum of weights between the bins) by randomly swapping components between bins while storing the iteration/generation that exhibits the lowest cost.
